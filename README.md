@@ -63,12 +63,3 @@ Como parte del análisis técnico del proyecto académico de 2024, se identifica
    ```bash
    git clone https://github.com/AlexanderValverdeReyes/Venta_boletos_de_viaje.git 
    cd Venta_boletos_de_viaje
-
-2. Obtener las dependencias del proyecto:
-   ```bash
-   flutter pub get
-   ```
-3. Ejecutar la aplicación:
-   ```bash
-   flutter run
-   ```
