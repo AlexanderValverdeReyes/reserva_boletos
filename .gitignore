@@ -1,0 +1,49 @@
+# ==============================================================================
+# REGLAS DE EXCLUSIÓN PARA PROYECTO JAVA (NETBEANS + ANT)
+# ==============================================================================
+
+# 1. Artefactos de compilación y empaquetado de NetBeans / Ant
+/build/
+/dist/
+bin/
+
+# 2. Archivos binarios de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# 3. Configuraciones de entorno y preferencias de usuario en NetBeans
+# (Contiene rutas absolutas locales del usuario y estado del editor)
+/nbproject/private/
+
+# 4. Metadatos de otros editores e IDEs (IntelliJ IDEA, VS Code, Eclipse)
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+
+# 5. Archivos temporales del sistema operativo
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 6. Registros, volcado de memoria y temporales
+*.log
+hs_err_pid*
+replay_pid*
+*.tmp
+*.bak
+*~
